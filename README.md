@@ -1,12 +1,10 @@
 # Train to Defend: First Defense Against Cryptanalytic Parameter Extraction in Neural Networks 
 
 This repository presents the first defense for securing ReLU-based deep neural networks against cryptanalytic parameter recovery attacks.
-Our core idea is to break the neuron uniqueness these attacks rely on by introducing a novel, extraction-aware training strategy.
-The defense adds zero area-delay overhead during inference and causes only a marginal change in model accuracy.
 
 # Explanation of this Codebase
 
-This codebase implements a defense mechanism against the end-to-end cryptanatic attack proposed by Foerster et al., whose original code can be found at https://github.com/hannafoe/cryptanalytical-extraction. At the core of our defense is a custom Keras loss function, `CombinedLoss`, which improves neural network resilience by regularizing neuron similarity. Alongside the standard mean squared error loss, it adds a similarity term that penalizes large differences between randomly selected pairs of neurons within each layer. This discourages neuron uniqueness—an essential factor exploited in the original attack thereby making parameter recovery significantly more difficult.
+This codebase implements a defense mechanism against the end-to-end cryptanatic attack proposed by Foerster et al., whose original code can be found at https://github.com/hannafoe/cryptanalytical-extraction.
 
 # Reproduce Attacks
 To reproduce the attack results reported in our manuscript, please execute the following commands:
