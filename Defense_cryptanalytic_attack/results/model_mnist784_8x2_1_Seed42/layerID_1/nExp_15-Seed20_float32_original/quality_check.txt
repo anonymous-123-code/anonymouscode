@@ -1,0 +1,28 @@
+
+Check the solution of the last weight matrix.
+Neuron 0 maps on to neuron 0 with error 3.343755905929766e-08 ratio 0.059297598891862494
+Bias check [-1.71254153e-07]
+Neuron 1 maps on to neuron 7 with error 5.349810854368252e-08 ratio -1.3042195404810302
+Bias check [4.70921015e-07]
+Neuron 2 maps on to neuron 1 with error 4.074644586762596e-08 ratio 0.2067223958296161
+Bias check [7.18245548e-07]
+Neuron 3 maps on to neuron 4 with error 4.3027185231055204e-08 ratio 0.7336362777730172
+Bias check [-1.65846272e-06]
+Neuron 4 maps on to neuron 5 with error 5.148252355524193e-08 ratio -0.044056633836730856
+Bias check [-1.05502268e-06]
+Neuron 5 maps on to neuron 6 with error 4.7218274593408665e-08 ratio 1.8143501694112352
+Bias check [1.09451422e-06]
+Neuron 6 maps on to neuron 3 with error 3.765444109565312e-08 ratio -1.8052623218735189
+Bias check [8.55229647e-07]
+Neuron 7 maps on to neuron 2 with error 4.884149165895349e-08 ratio -1.2366606481589124
+Bias check [2.38388628e-07]
+***********Total signature cheat error: 0.000000
+***********Total signature no cheat error: -2028.925499**************
+
+Element-wise bias differences:
+*****************************Total weight difference: -191.77268232943115**********************
+*****************************Total bias difference: [1.22799681]**********************
+*****************************Total weight+bias difference:[-190.54468552]******
+*****************************#biases: 8******
+*****************************#weights: 784******
+*****************************Percentage of signature error:[-3.03415104]******
