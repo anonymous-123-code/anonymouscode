@@ -37,4 +37,5 @@ pip install pandas==2.1.2
 pip install jax==0.4.30
 pip install optax==0.2.3
 pip install scipy==1.9.3
+
 ```
